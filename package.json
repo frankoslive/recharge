@@ -1,0 +1,24 @@
+{
+  "name": "exsat-recharge",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@exsat/account-initializer": "^1.2.9",
+    "@inquirer/prompts": "^7.2.1",
+    "@wharfkit/session": "^1.4.0",
+    "@wharfkit/wallet-plugin-privatekey": "^1.1.0",
+    "dotenv": "^16.4.7",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.4",
+    "@types/node": "^22.3.0",
+    "@types/node-cron": "^3.0.11",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
